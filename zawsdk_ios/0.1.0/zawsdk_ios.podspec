@@ -31,7 +31,7 @@ zawsdk ios hahahahhahaah
   s.platform = :ios, '12.0'
   s.ios.deployment_target = '12.0'
 
-  s.source_files = 'zawsdk_ios/Classes/**/*'
+  s.source_files = 'zawsdk_ios/Classes/**/*{h,m}'
    s.resource_bundles = {
      'zawsdk_ios' => ['zawsdk_ios/Assets/*.png']
    }
@@ -39,7 +39,7 @@ zawsdk ios hahahahhahaah
    s.requires_arc = true
 #   s.compiler_flags = '-DBORINGSSL_PREFIX=GRPC -Wno-unreachable-code -Wno-shorten-64-to-32'
    s.pod_target_xcconfig = {
-#       'HEADER_SEARCH_PATHS' => '"$(inherited)" "$(PODS_TARGET_SRCROOT)/include"',
+#       'HEADER_SEARCH_PATHS' => '"$(inherited)" "$(PODS_TARGET_SRCROOT)"',
        'VALID_ARCHS' => 'armv7 arm64',
 #       'ONLY_ACTIVE_ARCH' => 'YES',
 #       'CLANG_ENABLE_MODULES' => 'YES',
@@ -53,7 +53,7 @@ zawsdk ios hahahahhahaah
 #   s.swift_version = '4.0'
 #   s.libraries = 'c++'
    s.static_framework = true
-   s.header_mappings_dir = '.'
+#   s.header_mappings_dir = '.'
    s.public_header_files = 'zawsdk_ios/Classes/**/*.h'
    s.frameworks = 'UIKit', 'Foundation'
    s.dependency 'AFNetworking', '~> 4.0'
