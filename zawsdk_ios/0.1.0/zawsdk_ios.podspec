@@ -38,9 +38,9 @@ zawsdk ios hahahahhahaah
    
    s.requires_arc = true
 #   s.compiler_flags = '-DBORINGSSL_PREFIX=GRPC -Wno-unreachable-code -Wno-shorten-64-to-32'
-   s.pod_target_xcconfig = {
+#   s.pod_target_xcconfig = {
 #       'HEADER_SEARCH_PATHS' => '"$(inherited)" "$(PODS_TARGET_SRCROOT)"',
-       'VALID_ARCHS' => 'armv7 arm64',
+#       'VALID_ARCHS' => 'armv7 arm64',
 #       'ONLY_ACTIVE_ARCH' => 'YES',
 #       'CLANG_ENABLE_MODULES' => 'YES',
 #       'GCC_PREPROCESSOR_DEFINITIONS' => '"$(inherited)" "COCOAPODS=1"',
@@ -49,7 +49,7 @@ zawsdk ios hahahahhahaah
 #       'CLANG_WARN_STRICT_PROTOTYPES' => 'NO',
 #       'CLANG_CXX_LANGUAGE_STANDARD' => 'gnu++0x',
 #       'GCC_C_LANGUAGE_STANDARD' => 'gnu99'
-   }
+#   }
 #   s.swift_version = '4.0'
 #   s.libraries = 'c++'
    s.static_framework = true
