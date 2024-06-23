@@ -55,6 +55,7 @@ zawsdk ios hahahahhahaah
    s.static_framework = true
 #   s.header_mappings_dir = '.'
    s.public_header_files = 'zawsdk_ios/Classes/**/*.h'
+   s.vendored_frameworks = 'zawsdk_ios/Frameworks/ZAWSDKIOSFramework.framework'
    s.frameworks = 'UIKit', 'Foundation'
    s.dependency 'AFNetworking', '~> 4.0'
    s.dependency 'MFSIdentifier', '~> 1.0.2'
