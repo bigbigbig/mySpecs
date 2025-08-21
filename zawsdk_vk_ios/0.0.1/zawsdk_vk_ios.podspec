@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'zawsdk_vk_ios'
-  s.version          = '0.4.0'
+  s.version          = '0.0.1'
   s.summary          = 'zawsdk vk part for ios'
 
 # This description is used to generate tags and improve search results.
