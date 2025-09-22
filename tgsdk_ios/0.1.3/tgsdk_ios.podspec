@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'tgsdk_ios'
-  s.version          = '0.1.333'
+  s.version          = '0.1.3'
   s.summary          = 'tgsdk for ios'
 
 # This description is used to generate tags and improve search results.
