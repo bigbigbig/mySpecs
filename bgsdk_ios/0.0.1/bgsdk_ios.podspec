@@ -7,7 +7,7 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'bgsdk'
+  s.name             = 'bgsdk_ios'
   s.version          = '0.0.1'
   s.summary          = 'bgsdk for ios'
 
